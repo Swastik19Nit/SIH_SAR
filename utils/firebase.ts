@@ -2,15 +2,19 @@ import { initializeApp } from "firebase/app";
 import { getStorage ,ref,getDownloadURL} from "firebase/storage";
 import { getFirestore } from "firebase/firestore";
 
+
 const firebaseConfig = {
-    apiKey: "AIzaSyBcssHbgb5l8Y5QUrV1DnajldZYJ2eAHWo",
-    authDomain: "colorise-9dc75.firebaseapp.com",
-    projectId: "colorise-9dc75",
-    storageBucket: "colorise-9dc75.appspot.com",
-    messagingSenderId: "521709902533",
-    appId: "1:521709902533:web:9c00b4e14c0c6e2fa66eac",
-    measurementId: "G-S3WRJ3YWVR"
-}
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_FIREBASE_APP_ID,
+    measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
+};
+
+const app = initializeApp(firebaseConfig);
+
 
 const app = initializeApp(firebaseConfig);
 export const storage = getStorage(app);
