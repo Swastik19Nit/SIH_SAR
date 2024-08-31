@@ -1,6 +1,6 @@
 # SAR Image Colorization Project
 
-This project provides a web application for colorizing Synthetic Aperture Radar (SAR) images using a deep learning model. It consists of a React frontend and a Flask backend, with Firebase used for image storage.This repository contains the project submission for Smart India Hackathon (SIH) 2024 by Team NEXTECH. The project addresses the problem statement "SAR Image Colorization for Comprehensive Insight using Deep Learning Model," aiming to develop an innovative solution for enhancing the interpretability of monochromatic SAR imagery through colorization using deep learning models.
+This project provides a web application for colorizing Synthetic Aperture Radar (SAR) images using a deep learning model. It consists of a React frontend and a Flask backend, with Firebase used for image storage.This repository contains the project submission for Smart India Hackathon (SIH) 2024 by Team STARDUST. The project addresses the problem statement "SAR Image Colorization for Comprehensive Insight using Deep Learning Model," aiming to develop an innovative solution for enhancing the interpretability of monochromatic SAR imagery through colorization using deep learning models.
 
 ## Features
 
