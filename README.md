@@ -9,6 +9,9 @@ This project provides a web application for colorizing Synthetic Aperture Radar 
 - Store original and colorized images in Firebase Storage
 - Display colorized images to the user
 
+- ![image](https://github.com/user-attachments/assets/a697f190-e2fa-4683-ace9-31485c72c07e)
+
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
